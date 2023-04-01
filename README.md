@@ -10,7 +10,7 @@
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-landing-page-use-css-flexbox-mM_I2Vs_QF)
 - Live Site URL: (https://funny-phoenix-71c108.netlify.app/)
 
 ### Built with
