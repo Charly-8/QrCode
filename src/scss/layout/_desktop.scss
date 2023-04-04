@@ -1,0 +1,57 @@
+@use '../base/mixins' as m;
+@use '../base/variables' as v;
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: v.$White;
+    border-radius: 2rem;
+
+    @include m.desktop {
+        // margin-top: 10rem;
+        margin: auto;
+        margin-top: 6rem;
+        width: 33rem;
+        height: 54.5rem;
+        
+        .qr {
+            display: flex;
+            justify-content: center;
+            width: 33rem;
+        }
+
+        .qr__code {
+            width: auto;
+        }
+
+        .qr__img {
+            border-radius: 2rem;
+            width: 30rem;
+        }
+
+    }
+
+    .qr__message {
+    
+        .qr__title,
+        .qr__txt {
+            text-align: center;
+        }
+    
+        @include m.desktop {
+            width: 27.5rem;
+    
+            .qr__title {
+                margin: 2rem 0;
+                font-size: 2.5rem;
+            }
+    
+            .qr__txt {
+                color: v.$Grayishblue;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
