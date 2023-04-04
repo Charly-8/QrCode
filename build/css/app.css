@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-family: "Outfit", sans-serif;
+  font-size: 400;
+  background-color: hsl(212, 45%, 89%);
+}
+
+h1 {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  font-size: 700;
+}
+
+p {
+  margin: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+}
+@media (max-width: 1440px) {
+  .card {
+    margin: auto;
+    margin-top: 6rem;
+    width: 33rem;
+    height: 54.5rem;
+  }
+  .card .qr {
+    display: flex;
+    justify-content: center;
+    width: 33rem;
+  }
+  .card .qr__code {
+    width: auto;
+  }
+  .card .qr__img {
+    border-radius: 2rem;
+    width: 30rem;
+  }
+}
+.card .qr__message .qr__title,
+.card .qr__message .qr__txt {
+  text-align: center;
+}
+@media (max-width: 1440px) {
+  .card .qr__message {
+    width: 27.5rem;
+  }
+  .card .qr__message .qr__title {
+    margin: 2rem 0;
+    font-size: 2.5rem;
+  }
+  .card .qr__message .qr__txt {
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 2rem;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+}
+@media (max-width: 375px) {
+  .card {
+    margin: auto;
+    margin-top: 8.5rem;
+    width: 33rem;
+    height: 49rem;
+  }
+  .card .qr {
+    display: flex;
+    justify-content: center;
+    width: 33rem;
+  }
+  .card .qr__code {
+    width: auto;
+  }
+  .card .qr__img {
+    border-radius: 2rem;
+    width: 30rem;
+  }
+}
+.card .qr__message .qr__title,
+.card .qr__message .qr__txt {
+  text-align: center;
+}
+@media (max-width: 375px) {
+  .card .qr__message {
+    width: 28.5rem;
+  }
+  .card .qr__message .qr__title {
+    margin: 2rem 0;
+    font-size: 2rem;
+  }
+  .card .qr__message .qr__txt {
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 3rem;
+  }
+}
